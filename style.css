@@ -1,0 +1,109 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ @import url(./css/nav.css);
+ @import url(./css/blog-post.css);
+ @import url(./css/footer.css);
+ 
+
+
+
+ body {
+   background-color: darkslategray;
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+
+ }
+
+
+  .flex-container {
+   display: flex;
+   justify-content: center ;
+   flex-wrap: wrap;
+   align-items: center;
+  }
+   .flex-item { 
+       width: 260px;
+       margin: 10px;
+    height: max-content;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+       box-shadow: 0px 4px 8px 0px rgba(159, 250, 242, 0.4);
+       
+   
+   }
+
+   .card-img {
+      background-color: cadetblue;
+      margin-bottom: 20px;
+      height: 300px;
+      background-size: cover;
+      border-radius: 15px 15px 0 0;
+     
+   }
+   .fo-1 {
+      background-image: url(fo1.jpg);
+  
+   }
+
+   .fo-2 {
+      background-image: url(fo2.jpg);
+
+   }
+   
+   .fo-3 {
+      background-image: url(fo3.jpg);
+     
+   }
+  .flex-item figcaption {
+      
+      color: black;
+      
+      padding: 2px;
+      text-align: center;
+    }
+   
+   .flex-item h2{
+      padding: 8px;
+      text-align: center;
+      font-style: italic;
+      font-size: medium;
+   }
+   .flex-item p{
+      padding: 10px;
+      text-align: center;
+      font-style: italic;
+   }
+   .flex-item a{
+      background-color: darkslategray;
+      color: white;
+      display: flex;
+      text-align: center;
+      margin: 40px;
+      padding: 10px;
+      text-decoration: none;
+   }
+   
+   .flex-item  a:hover{
+      color: aquamarine;
+      transform: scale(1.1);
+   }
+   
+   .flex-item:hover{
+      color: white;
+      transition: all 1s ease;
+      background-color: darkcyan;
+      transform: scale(1.03);
+      cursor: pointer;
+   }    
+   .flex-item span{
+       font-size: 0.9rem;
+       font-weight: 400;
+       color: darkseagreen;
+   }
+   
+ 
+  
